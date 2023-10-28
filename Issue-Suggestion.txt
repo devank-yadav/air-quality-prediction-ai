@@ -1,0 +1,9 @@
+Issues that need to be addressed:
+1.) There are too many Null Values or 0 values in the data frame so we neeed to fill those data wiith the mean of the data for the same state same gas and the same year
+2.) There is no access to the live concentration data state wise.
+3.) Some negative values were found in the data terribly destroying the prediction have to check if they are really negative or there is an issue in the available data.
+4.) Accuracy with some state and gases is very amazing but similary worse with some states and gases
+5.) Explore models, try to fine tune, improve accuracy.
+
+Proposed features:
+1.) Show a graph of the concentration of the gas for the last 5 years and then current(real time) and the predicted and we can show how the prediction based on the previous year data is very wrong due to the forest fire chaging the levels by huge margins this year
